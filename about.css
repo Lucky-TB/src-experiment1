@@ -8,10 +8,7 @@
 }
 
 body {
-    min-height: 100vh;
-    background: url('images/minimalist-starry-rocket-ship-backgrounds-p1jvl8gci185ahwm.jpg') no-repeat; 
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +32,7 @@ body {
 
 .logo {
     font-size: 32px;
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-weight: 700;
 }
@@ -43,7 +40,7 @@ body {
 .navbar a {
     position: relative;
     font-size: 18px;
-    color: #fff;
+    color: white;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -64,37 +61,7 @@ body {
     width: 100%;
 }
 
-.hero-title {
+.about-title {
     color: white;
-    position: absolute;
-    margin-top: -500px;
-    transform: scale(1.5);
+    margin-top: 120px;
 }
-
-.mission-btn {
-    display: inline-block;
-    text-decoration: none;
-    margin-top: -350px;
-}
-
-.mission-btn button {
-    font-size: 1em;
-    letter-spacing: .1em;
-    color: white;
-    text-transform: none;
-    border: 2px solid white;
-    padding: 10px 30px;
-    background: none;
-    cursor: pointer;
-    transition: 1s;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.mission-btn button:hover {
-    color: white;
-    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 80px white, 0 0 160px white;
-}
-
-/* Content */
